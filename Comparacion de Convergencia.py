@@ -7,13 +7,13 @@ Created on Thu Sep 10 22:17:06 2026
 
 import matplotlib.pyplot as plt
 
-# DATOS DE CONVERGENCIA (ERROR RELATIVO APPROX / INTERVALO)
+# Datos de convergencia
 # Tubería D = 5" (D = 0.12819 m) | Tolerancia = 10^-5
 
-# Newton-Raphson: Convergencia cuadrática (2 iteraciones)
+# Newton-Raphson: (2 iteraciones)
 error_newton = [4.0520e-3, 7.4314e-4]
 
-# Secante: Convergencia superlineal (6 iteraciones)
+# Secante: (6 iteraciones)
 error_secante = [
     2.7083e-1,
     1.7047e-1,
@@ -23,7 +23,7 @@ error_secante = [
     1.0090e-6,
 ]
 
-# Falsa Posición: Convergencia lineal ponderada (9 iteraciones)
+# Falsa Posición: (9 iteraciones)
 error_falsa = [
     3.5000e-1,
     1.8000e-1,
@@ -36,7 +36,7 @@ error_falsa = [
     1.0000e-6,
 ]
 
-# Bisección: Convergencia lineal exacta por reducción de intervalo (14 iteraciones)
+# Bisección: (14 iteraciones)
 error_bisec = [
     5.0000e-1,
     2.5000e-1,
